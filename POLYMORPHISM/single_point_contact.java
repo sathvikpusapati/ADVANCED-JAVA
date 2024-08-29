@@ -32,7 +32,7 @@ class cc390 extends cc200 //sub class 3
 /*v1 is a parameter of type bike. This means that when calling the speedometre method, 
 you must pass an instance of bike or any of its subclasses (150cc, 200cc, 390cc, etc.).*/
 
-class simulator// simulator class 
+class stimulator// simulator class 
 {	
 	static void speedometre(bike v1)
 	{
@@ -49,9 +49,9 @@ public class single_point_contact{
 		cc200 sp2=new cc200();
 		cc390 sp3=new cc390();
 		
-		simulator.speedometre(sp1);
-		simulator.speedometre(sp2);
-		simulator.speedometre(sp3);
+		stimulator.speedometre(sp1);
+		stimulator.speedometre(sp2);
+		stimulator.speedometre(sp3);
 		
 		
 	}
