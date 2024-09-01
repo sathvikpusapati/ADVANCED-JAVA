@@ -22,7 +22,7 @@ class super_keyword
 {
     public static void main(String[] args) {
         
-        house ob=new house2();
+        house2 ob=new house2();
 
         ob.hall();
     }
